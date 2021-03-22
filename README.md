@@ -18,5 +18,6 @@ Detecting_intentions_MLP-clean-lemma-stop_words.ipynb
 
 nazwa| komentarz |teset Accuracy|predykcja Accuracy|predykcja F1_score
 -|-|-|-|-
-MLP-clean-lemma.ipynb|MLP-clean-lemma|97.71490693092346|0.96|0.96
--|-|-|-|-
+MLP.ipynb|clean|||
+MLP-clean-lemma.ipynb|clean lemma|97.71490693092346|0.96|0.96
+MLP-clean-lemma-stop_words.ipynb|clean lemma|||
