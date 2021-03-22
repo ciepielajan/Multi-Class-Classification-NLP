@@ -20,4 +20,4 @@ nazwa| komentarz |teset Accuracy|predykcja Accuracy|predykcja F1_score
 -|-|-|-|-
 MLP.ipynb|clean|||
 MLP-clean-lemma.ipynb|clean lemma|97.71490693092346|0.96|0.96
-MLP-clean-lemma-stop_words.ipynb|clean lemma|||
+MLP-clean-lemma-stop_words.ipynb|clean lemma stop_words|||
