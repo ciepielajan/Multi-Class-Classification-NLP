@@ -16,5 +16,5 @@ LSTM  |clean|97.1708357334137|0.97|0.97
 LSTM_Bidirectional    |clean Bidirectional| 97.4247395992279     |  0.96     | 0.96
 GRU     |clean|97.64236211776733|0.97|0.97
 GRU_Bidirectional     |clean Bidirectional| 97.06202149391174     | 0.97|0.97
-CNN | clean | 98.04134964942932 | 0.98 |0.98
+CNN | clean | Accuracy 97.8237211704254 | 0.97|0.97
 
