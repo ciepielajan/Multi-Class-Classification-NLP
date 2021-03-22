@@ -13,9 +13,8 @@ MLP-clean-lemma-stop_words.ipynb|clean lemma stop_words|96.77185416221619|0.94|0
 SimleRNN.ipynb|clean|96.77185416221619|0.97|0.97
 LSTM.ipynb    |clean|97.1708357334137|0.97|0.97
 GRU.ipynb     |clean|97.64236211776733|0.97|0.97
-
-SimleRNN.ipynb|clean Bidirectional| 97.31592535972595     | 0.97|0.97
-LSTM.ipynb    |clean Bidirectional| 97.4247395992279     |  0.96     | 0.96
-GRU.ipynb     |clean Bidirectional| 97.06202149391174     | 0.97|0.97
+SimleRNN_Bidirectional.ipynb|clean Bidirectional| 97.31592535972595     | 0.97|0.97
+LSTM_Bidirectional.ipynb    |clean Bidirectional| 97.4247395992279     |  0.96     | 0.96
+GRU_Bidirectional.ipynb     |clean Bidirectional| 97.06202149391174     | 0.97|0.97
 
 
