@@ -34,3 +34,13 @@ CNN | clean | Accuracy 97.8237211704254 | 0.97|0.97
 |    |   batch_size |   best_score_ |   embedding_dim |   epochs |   kernel_size |   maxlen |   num_filters |   vocab_size |
 |---:|-------------:|--------------:|----------------:|---------:|--------------:|---------:|--------------:|-------------:|
 |  0 |           32 |      0.982879 |             200 |       20 |             3 |       13 |           128 |         9462 |
+
+
+#### GridSearchCV
+
+param_grid:
+{'num_filters': [32, 64, 128], 'kernel_size': [3, 5, 7], 'vocab_size': [9462], 'embedding_dim': [100, 200], 'maxlen': [13], 'epochs': [30], 'batch_size': [16, 32, 64]}
+
+|    |   batch_size |   best_score_ |   embedding_dim |   epochs |   kernel_size |   maxlen |   num_filters |   vocab_size |
+|---:|-------------:|--------------:|----------------:|---------:|--------------:|---------:|--------------:|-------------:|
+|  0 |           64 |      0.983169 |             200 |       30 |             3 |       13 |           128 |         9462 |
