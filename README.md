@@ -14,7 +14,7 @@ implementacja jak największej ilości algorytmów i modeli do klasyfikacji w ce
 
 #### Implementacja różnych modeli
 
-nazwa| komentarz |teset Accuracy|predykcja Accuracy|predykcja F1_score
+nazwa| komentarz |test Accuracy|predykcja Accuracy|predykcja F1_score
 -|-|-|-|-
 RandomForestClassifier |clean|0.98|0.98|0.98
 MLP |clean|97.89626598358154|0.97|0.97
@@ -31,13 +31,13 @@ GRU_Bidirectional     |clean Bidirectional| 97.06202149391174     | 0.97|0.97
 CNN | clean | Accuracy 97.8237211704254 | 0.97|0.97
 
 
-#### RandomizedSearchCV
+#### CNN RandomizedSearchCV
 |    |   batch_size |   best_score_ |   embedding_dim |   epochs |   kernel_size |   maxlen |   num_filters |   vocab_size |
 |---:|-------------:|--------------:|----------------:|---------:|--------------:|---------:|--------------:|-------------:|
 |  0 |           32 |      0.982879 |             200 |       20 |             3 |       13 |           128 |         9462 |
 
 
-#### GridSearchCV
+#### CNN GridSearchCV
 
 param_grid:
 {'num_filters': [32, 64, 128], 'kernel_size': [3, 5, 7], 'vocab_size': [9462], 'embedding_dim': [100, 200], 'maxlen': [13], 'epochs': [30], 'batch_size': [16, 32, 64]}
