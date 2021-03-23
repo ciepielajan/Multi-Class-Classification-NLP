@@ -3,7 +3,15 @@
 implementacja jak największej ilości algorytmów i modeli do klasyfikacji w celu przeczwiczenia predykcji i wychwycenia różnic.
 
 
-maxlen = 7
+#### Szukanie optymalnej długości dla intencji (maxlen)
+
+|    |   maxlen |   Accuracy | model_name      |
+|---:|---------:|-----------:|:----------------|
+|  0 |        8 |    98.2952 | model_maxlen_8  |
+|  1 |       13 |    98.3678 | model_maxlen_13 |
+|  2 |       33 |    98.3315 | model_maxlen_33 |
+
+
 
 nazwa| komentarz |teset Accuracy|predykcja Accuracy|predykcja F1_score
 -|-|-|-|-
