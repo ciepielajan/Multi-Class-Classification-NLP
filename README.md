@@ -12,6 +12,7 @@ implementacja jak największej ilości algorytmów i modeli do klasyfikacji w ce
 |  2 |       33 |    98.3315 | model_maxlen_33 |
 
 
+#### Implementacja różnych modeli
 
 nazwa| komentarz |teset Accuracy|predykcja Accuracy|predykcja F1_score
 -|-|-|-|-
