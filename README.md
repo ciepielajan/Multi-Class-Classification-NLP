@@ -8,6 +8,8 @@ maxlen = 7
 nazwa| komentarz |teset Accuracy|predykcja Accuracy|predykcja F1_score
 -|-|-|-|-
 MLP |clean|97.89626598358154|0.97|0.97
+MLP_glove.6B.100d|clean glove.6B.100d|98.0050802230835|0.98|0.98
+MLP_glove.twitter.27B.100d|clean glove.twitter.27B.100d|98.2227087020874|0.97|0.97
 MLP-clean-lemma |clean lemma|97.71490693092346|0.96|0.96
 MLP-clean-lemma-stop_words |clean lemma stop_words|96.77185416221619|0.94|0.94
 SimleRNN |clean|96.77185416221619|0.97|0.97
