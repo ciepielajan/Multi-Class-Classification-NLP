@@ -21,7 +21,7 @@ GRU_Bidirectional     |clean Bidirectional| 97.06202149391174     | 0.97|0.97
 CNN | clean | Accuracy 97.8237211704254 | 0.97|0.97
 
 
-####RandomizedSearchCV
+#### RandomizedSearchCV
 |    |   batch_size |   best_score_ |   embedding_dim |   epochs |   kernel_size |   maxlen |   num_filters |   vocab_size |
 |---:|-------------:|--------------:|----------------:|---------:|--------------:|---------:|--------------:|-------------:|
 |  0 |           64 |      0.960148 |             100 |       20 |             7 |        7 |            64 |         9462 |
