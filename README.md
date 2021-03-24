@@ -7,10 +7,12 @@ implementacja jak największej ilości algorytmów i modeli do klasyfikacji w ce
 
 |    |   maxlen |   Accuracy | model_name      |
 |---:|---------:|-----------:|:----------------|
-|  0 |        8 |    98.2952 | model_maxlen_8  |
-|  1 |       13 |    98.3678 | model_maxlen_13 |
-|  2 |       33 |    98.3315 | model_maxlen_33 |
-
+|  0 |        2 |    85.5277 | model_maxlen_2  |
+|  1 |        8 |    98.3315 | model_maxlen_8  |
+|  2 |       10 |    98.2952 | model_maxlen_10 |
+|  3 |       12 |    98.4766 | model_maxlen_12 |
+|  4 |       13 |    98.5129 | model_maxlen_13 |
+|  5 |       33 |    98.3678 | model_maxlen_33 |
 
 #### Implementacja różnych modeli
 
