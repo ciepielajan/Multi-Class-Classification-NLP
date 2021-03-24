@@ -20,6 +20,21 @@ implementacja jak największej ilości algorytmów i modeli do klasyfikacji w ce
 |  4 |       13 |    98.5129 | model_maxlen_13 |
 |  5 |       33 |    98.3678 | model_maxlen_33 |
 
+## Szukanie optymalnego proprocesingu 
+base clear, lemmatyzacja, usunięcie stop_words, placehoder
+
+nazwa| komentarz |test Accuracy|predykcja Accuracy|predykcja F1_score
+-|-|-|-|-
+MLP-clean |clean|97.89626598358154|0.97|0.97
+MLP-clean-lemma |clean lemma|98.04134964942932|0.97|0.97
+MLP-clean-lemma-stop_words |clean lemma stop_words|96.69930934906006|0.94|0.94
+SimleRNN-clean |clean|96.77185416221619|0.97|0.97
+LSTM-clean  |clean|97.35219478607178|0.97|0.97
+GRU-clean          |clean|97.4247395992279|0.97|0.97
+GRU-clean-lemma     |clean-lemma|96.30032777786255|0.93|0.93
+CNN-clean | clean |  98.803049325943 | 0.98|0.98
+CNN-clean-lemma  | clean-lemma  |  98.36779236793518 | 0.96|0.96
+
 #### Implementacja różnych modeli
 
 nazwa| komentarz |test Accuracy|predykcja Accuracy|predykcja F1_score
@@ -27,22 +42,12 @@ nazwa| komentarz |test Accuracy|predykcja Accuracy|predykcja F1_score
 RandomForestClassifier |clean TfidfVectorizer|0.98|0.98|0.98
 MultinomialNB   |clean  TfidfVectorizer|0.98|0.98|0.98
 MultinomialNB   |clean  TfidfVectorizer Chi-Square |||
-MLP-clean |clean|97.89626598358154|0.97|0.97
 MLP-clean_glove.6B.100d|clean glove.6B.100d|98.25897812843323|0.99|0.99
 MLP-clean_glove.6B.300d|clean glove.6B.300d| 98.404061794281 |0.99|0.99
 MLP-clean_glove.twitter.27B.100d|clean glove.twitter.27B.100d|98.1864333152771|0.98|0.98
-MLP-clean-lemma |clean lemma|98.04134964942932|0.97|0.97
-MLP-clean-lemma-stop_words |clean lemma stop_words|96.69930934906006|0.94|0.94
-SimleRNN-clean |clean|96.77185416221619|0.97|0.97
 SimleRNN-clean_Bidirectional |clean Bidirectional| 97.31592535972595     | 0.97|0.97
-LSTM-clean  |clean|97.35219478607178|0.97|0.97
 LSTM-clean_Bidirectional    |clean Bidirectional| 97.35219478607178     |  0.97     | 0.97
-GRU-clean          |clean|97.4247395992279|0.97|0.97
-GRU-clean-lemma     |clean-lemma|96.30032777786255|0.93|0.93
 GRU-clean_Bidirectional     |clean Bidirectional| 97.1708357334137     | 0.98|0.98 #1mistake
-CNN-clean | clean |  98.803049325943 | 0.98|0.98
-CNN-clean-lemma  | clean-lemma  |  98.36779236793518 | 0.96|0.96
-
 
 
 #### CNN RandomizedSearchCV
