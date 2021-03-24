@@ -7,7 +7,7 @@ implementacja jak największej ilości algorytmów i modeli do klasyfikacji w ce
 ## Analiza zbioru - wstępne wnioski
 
 
-## Szukanie optymalnej długości dla intencji (maxlen)
+## Szukanie optymalnej długości dla komendy (maxlen)
 [MLP_searching_optymal_maxlen](https://github.com/ciepielajan/Multi-Class-Classification-NLP/blob/main/MLP_searching%20_optymal_maxlen.ipynb)
 
 
@@ -20,6 +20,8 @@ implementacja jak największej ilości algorytmów i modeli do klasyfikacji w ce
 |  4 |       13 |    98.5129 | model_maxlen_13 |
 |  5 |       33 |    98.3678 | model_maxlen_33 |
 
+> za najpotymalniejszą długość komendy przyjmiemy 13 tokenów, które są zawarte w 95% wszystkich analizowanych komend
+
 ## Szukanie optymalnego proprocesingu 
 base clear, lemmatyzacja, usunięcie stop_words, placehoder
 
@@ -28,12 +30,16 @@ nazwa| komentarz |test Accuracy|predykcja Accuracy|predykcja F1_score
 MLP-clean |clean|97.89626598358154|0.97|0.97
 MLP-clean-lemma |clean lemma|98.04134964942932|0.97|0.97
 MLP-clean-lemma-stop_words |clean lemma stop_words|96.69930934906006|0.94|0.94
-SimleRNN-clean |clean|96.77185416221619|0.97|0.97
+SimleRNN-clean |clean|97.27964997291565|0.97|0.97
+SimleRNN-clean-lemma |clean-lemma|96.88066840171814  | 0.94 | 0.94
 LSTM-clean  |clean|97.35219478607178|0.97|0.97
+LSTM-clean-lemma |clean-lemma|97.13456630706787  |0.96  | 0.96
 GRU-clean          |clean|97.4247395992279|0.97|0.97
 GRU-clean-lemma     |clean-lemma|96.30032777786255|0.93|0.93
 CNN-clean | clean |  98.803049325943 | 0.98|0.98
 CNN-clean-lemma  | clean-lemma  |  98.36779236793518 | 0.96|0.96
+
+> powyższe zestawienie pokazuje że lemmatyzacja oraz usunięcie stop_words wpływa na pogroszenie wyników. 
 
 #### Implementacja różnych modeli
 
