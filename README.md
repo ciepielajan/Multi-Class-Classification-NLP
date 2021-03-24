@@ -37,9 +37,12 @@ SimleRNN |clean|96.77185416221619|0.97|0.97
 SimleRNN_Bidirectional |clean Bidirectional| 97.31592535972595     | 0.97|0.97
 LSTM  |clean|97.35219478607178|0.97|0.97
 LSTM_Bidirectional    |clean Bidirectional| 97.35219478607178     |  0.97     | 0.97
-GRU     |clean|97.4247395992279|0.97|0.97
+GRU-clean          |clean|97.4247395992279|0.97|0.97
+GRU-clean-lemma     |clean-lemma|96.30032777786255|0.93|0.93
 GRU_Bidirectional     |clean Bidirectional| 97.1708357334137     | 0.98|0.98 #1mistake
-CNN | clean |  98.803049325943 | 0.98|0.98
+CNN-clean | clean |  98.803049325943 | 0.98|0.98
+CNN-clean-lemma  | clean-lemma  |  98.36779236793518 | 0.96|0.96
+
 
 
 #### CNN RandomizedSearchCV
