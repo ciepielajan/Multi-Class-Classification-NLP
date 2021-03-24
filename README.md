@@ -37,7 +37,7 @@ SimleRNN_Bidirectional |clean Bidirectional| 97.31592535972595     | 0.97|0.97
 LSTM  |clean|97.1708357334137|0.97|0.97
 LSTM_Bidirectional    |clean Bidirectional| 97.4247395992279     |  0.96     | 0.96
 GRU     |clean|97.4247395992279|0.97|0.97
-GRU_Bidirectional     |clean Bidirectional| 97.06202149391174     | 0.97|0.97
+GRU_Bidirectional     |clean Bidirectional| 97.1708357334137     | 0.98|0.98 #1mistake
 CNN | clean |  98.803049325943 | 0.98|0.98
 
 
