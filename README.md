@@ -1,5 +1,9 @@
 # Multi-Class-Classification-NLP
 
+- [x] This is a complete item
+- [ ] This is an incomplete item
+
+
 implementacja jak największej ilości algorytmów i modeli do klasyfikacji w celu przeczwiczenia predykcji i wychwycenia różnic.
 
 # Analiza zbioru - wstępne wnioski
