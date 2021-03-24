@@ -22,7 +22,7 @@ implementacja jak największej ilości algorytmów i modeli do klasyfikacji w ce
 
 > za najpotymalniejszą długość komendy przyjmiemy 13 tokenów, które są zawarte w 95% wszystkich analizowanych komend
 
-## Szukanie optymalnego proprocesingu 
+## Szukanie optymalnego preprocesingu 
 base clear, lemmatyzacja, usunięcie stop_words, placehoder
 
 nazwa| komentarz |test Accuracy|predykcja Accuracy|predykcja F1_score
