@@ -8,7 +8,8 @@ implementacja jak największej ilości algorytmów i modeli do klasyfikacji w ce
 
 
 ## Szukanie optymalnej długości dla intencji (maxlen)
-[https://github.com/ciepielajan/Multi-Class-Classification-NLP/blob/main/MLP_searching%20_optymal_maxlen.ipynb, "fasdfA"]
+[MLP_searching_optymal_maxlen](https://github.com/ciepielajan/Multi-Class-Classification-NLP/blob/main/MLP_searching%20_optymal_maxlen.ipynb)
+
 
 |    |   maxlen |   Accuracy | model_name      |
 |---:|---------:|-----------:|:----------------|
