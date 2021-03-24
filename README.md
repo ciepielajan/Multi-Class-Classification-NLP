@@ -39,7 +39,10 @@ GRU-clean-lemma     |clean-lemma|96.30032777786255|0.93|0.93
 CNN-clean | clean |  98.803049325943 | 0.98|0.98
 CNN-clean-lemma  | clean-lemma  |  98.36779236793518 | 0.96|0.96
 
-> powyższe zestawienie pokazuje że lemmatyzacja oraz usunięcie stop_words wpływa na pogroszenie wyników. 
+> powyższe zestawienie pokazuje że lemmatyzacja oraz usunięcie stop_words wpływa na pogroszenie wyników. W kolejnych krokach będę stosował podstawowe czyszczenie usuwające znaki html, interpunkcje, liczby, maile, url, sprowadznie do małych liter oraz usunięcie niepotrzebnych spacji. 
+
+## Szukanie optymalnego 
+
 
 #### Implementacja różnych modeli
 
