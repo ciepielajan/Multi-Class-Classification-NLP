@@ -16,8 +16,9 @@ implementacja jak największej ilości algorytmów i modeli do klasyfikacji w ce
 
 nazwa| komentarz |test Accuracy|predykcja Accuracy|predykcja F1_score
 -|-|-|-|-
-RandomForestClassifier |clean|0.98|0.98|0.98
-MultinomialNB   |clean|0.98|0.98|0.98
+RandomForestClassifier |clean TfidfVectorizer|0.98|0.98|0.98
+MultinomialNB   |clean  TfidfVectorizer|0.98|0.98|0.98
+MultinomialNB   |clean  TfidfVectorizer Chi-Square |||
 MLP |clean|97.89626598358154|0.97|0.97
 MLP_glove.6B.100d|clean glove.6B.100d|98.0050802230835|0.98|0.98
 MLP_glove.twitter.27B.100d|clean glove.twitter.27B.100d|98.2227087020874|0.97|0.97
