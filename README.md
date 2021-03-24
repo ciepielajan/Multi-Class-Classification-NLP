@@ -30,7 +30,7 @@ MultinomialNB   |clean  TfidfVectorizer Chi-Square |||
 MLP |clean|97.89626598358154|0.97|0.97
 MLP_glove.6B.100d|clean glove.6B.100d|98.25897812843323|0.99|0.99
 MLP_glove.6B.300d|clean glove.6B.300d| 98.404061794281 |0.99|0.99
-MLP_glove.twitter.27B.100d|clean glove.twitter.27B.100d|98.2227087020874|0.97|0.97
+MLP_glove.twitter.27B.100d|clean glove.twitter.27B.100d|98.1864333152771|0.98|0.98
 MLP-clean-lemma |clean lemma|98.04134964942932|0.97|0.97
 MLP-clean-lemma-stop_words |clean lemma stop_words|96.69930934906006|0.94|0.94
 SimleRNN |clean|96.77185416221619|0.97|0.97
