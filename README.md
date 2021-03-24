@@ -1,15 +1,13 @@
 # Multi-Class-Classification-NLP
 
-- [x] This is a complete item
-- [ ] This is an incomplete item
 
 
 implementacja jak największej ilości algorytmów i modeli do klasyfikacji w celu przeczwiczenia predykcji i wychwycenia różnic.
 
-# Analiza zbioru - wstępne wnioski
-- [ ] Analiza
+## Analiza zbioru - wstępne wnioski
 
-# Szukanie optymalnej długości dla intencji (maxlen)
+
+## Szukanie optymalnej długości dla intencji (maxlen)
 [https://github.com/ciepielajan/Multi-Class-Classification-NLP/blob/main/MLP_searching%20_optymal_maxlen.ipynb, "fasdfA"]
 
 |    |   maxlen |   Accuracy | model_name      |
