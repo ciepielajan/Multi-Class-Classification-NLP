@@ -20,7 +20,7 @@ implementacja jak największej ilości algorytmów i modeli do klasyfikacji w ce
 |  4 |       13 |    98.5129 | model_maxlen_13 |
 |  5 |       33 |    98.3678 | model_maxlen_33 |
 
-> za najpotymalniejszą długość komendy przyjmiemy 13 tokenów, które są zawarte w 95% wszystkich analizowanych komend
+> za najoptymalniejszą długość komendy przyjmiemy 13 tokenów, które są zawarte w 95% wszystkich analizowanych komend
 
 ## Szukanie optymalnego preprocesingu 
 base clear, lemmatyzacja, usunięcie stop_words, placehoder
