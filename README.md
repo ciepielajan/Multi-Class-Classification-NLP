@@ -64,6 +64,7 @@ nazwa| komentarz |test Accuracy|predykcja Accuracy|predykcja F1_score
 -|-|-|-|-
 SimleRNN-clean_Bidirectional |clean Bidirectional| 97.31592535972595     | 0.97|0.97
 LSTM-clean_Bidirectional    |clean Bidirectional| 97.35219478607178     |  0.97     | 0.97
+LSTM_clean_Bidirectional_dropout=0.2   |clean Bidirectional dropout=0.2| 97.89626598358154     |  0.98     | 0.98
 GRU-clean_Bidirectional     |clean Bidirectional| 97.1708357334137     | 0.98|0.98 #1mistake
 
 
