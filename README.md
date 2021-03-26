@@ -1,12 +1,14 @@
 # Multi-Class-Classification-NLP
 
 
-zmiana-GRU_clean_glove.6B.300d_Bidirectional  <------- 
+zmiana-GRU_clean_glove.6B.300d_Bidirectional  <-------  
+
+CZY TE ZMIANY SĄ POTRZEBNE SKORO moje model równiez osiągały 99% na zbiorze walidacyjnym ? 
 - zmiana tokenizera na wiekszy !! domyślny 
 - sprawdzenie skuteczności na zbiorze validacyjnym
 - chyba zmiana ilości neuronów w pierwszej warstwie na 64
 - zmieniszenie elierstopu z 5 na 2 
-
+- rezygnacja z dzielenia zrioru train na dodatkowy zbior test
 
 
 implementacja jak największej ilości algorytmów i modeli do klasyfikacji w celu przeczwiczenia predykcji i wychwycenia różnic.
