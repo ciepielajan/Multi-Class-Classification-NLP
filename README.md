@@ -47,11 +47,15 @@ CNN-clean-lemma  | clean-lemma  |  98.36779236793518 | 0.96|0.96
 
 nazwa| komentarz |test Accuracy|predykcja Accuracy|predykcja F1_score
 -|-|-|-|-
+ML-LogistycRegresion_clean | clean | ? | ?|?       [](https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568)
+ML-LogistycRegresion_clean_word2vec | clean word2vec| ? | ?|?   [](link jw)
+ML-LogistycRegresion_clean_doc2vec | clean doc2vec| ? | ?|?     [](link jw)
+ML-SVM_clean | clean | ? | ?|?                                  [](link jw)
 RandomForestClassifier |clean TfidfVectorizer|0.98|0.98|0.98
 MultinomialNB   |clean  TfidfVectorizer|0.98|0.98|0.98
 MultinomialNB   |clean  TfidfVectorizer Chi-Square |||
 MLP-clean |clean|97.89626598358154|0.97|0.97
-MLP_clean_word2vec | clean word2vec| ? | ?|?
+ML-LogistycRegresion_clean_word2vec | clean word2vec| ? | ?|?
 MLP-clean_glove.6B.100d|clean glove.6B.100d|98.25897812843323|0.99|0.99
 MLP-clean_glove.6B.300d|clean glove.6B.300d| 98.404061794281 |0.99|0.99
 MLP-clean_glove.twitter.27B.100d|clean glove.twitter.27B.100d|98.1864333152771|0.98|0.98
