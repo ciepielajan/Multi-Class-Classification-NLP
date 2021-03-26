@@ -73,9 +73,11 @@ nazwa| komentarz |test Accuracy|predykcja Accuracy|predykcja F1_score
 SimleRNN-clean_Bidirectional |clean Bidirectional| 97.31592535972595     | 0.97|0.97
 LSTM-clean_Bidirectional    |clean Bidirectional| 97.35219478607178     |  0.97     | 0.97
 LSTM_clean_Bidirectional_dropout=0.2   |clean Bidirectional dropout=0.2| 97.89626598358154     |  0.98     | 0.98
-LSTM_clean_Bidirectional_dropout=0.2_recurrent_dropout=0.3 | clean Bidirectional dropout=0.2 recurrent_dropout=0.3  |  98.11389446258545 |  0.98     | 0.98
-LSTM_clean_Bidirectional_dropout=0.2_recurrent_dropout=0.3_return_sequences=False_kernel_initializer='he_uniform'|   clean_Bidirectional_dropout=0.2_recurrent_dropout=0.3_return_sequences=False_kernel_initializer='he_uniform' |  97.9688048362732 |0.97|0.97
-GRU-clean_Bidirectional     |clean Bidirectional| 97.1708357334137     | 0.98|0.98 #1mistake
+LSTM_clean_Bidirectional dropout=0.2 recurrent_dropout=0.3 | clean Bidirectional dropout=0.2 recurrent_dropout=0.3  |  98.11389446258545 |  0.98     | 0.98
+LSTM_clean_Bidirectional dropout=0.2 recurrent_dropout=0.3 return_sequences=False kernel_initializer='he_uniform'|   clean_Bidirectional_dropout=0.2_recurrent dropout=0.3 return_sequences=False kernel_initializer='he_uniform' |  97.9688048362732 |0.97|0.97
+GRU-clean_Bidirectional     |clean Bidirectional| 97.1708357334137     | 0.98|0.98 #1mistake w problematyczej klasie
+GRU-clean_glove.6B.100d_Bidirectional     |clean Bidirectional|      | |
+GRU-clean_glove.6B.300d_Bidirectional     |clean Bidirectional|           | |
 
 
 #### CNN RandomizedSearchCV
