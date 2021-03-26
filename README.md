@@ -76,8 +76,9 @@ LSTM_clean_Bidirectional_dropout=0.2   |clean Bidirectional dropout=0.2| 97.8962
 LSTM_clean_Bidirectional dropout=0.2 recurrent_dropout=0.3 | clean Bidirectional dropout=0.2 recurrent_dropout=0.3  |  98.11389446258545 |  0.98     | 0.98
 LSTM_clean_Bidirectional dropout=0.2 recurrent_dropout=0.3 return_sequences=False kernel_initializer='he_uniform'|   clean_Bidirectional_dropout=0.2_recurrent dropout=0.3 return_sequences=False kernel_initializer='he_uniform' |  97.9688048362732 |0.97|0.97
 GRU-clean_Bidirectional     |clean Bidirectional| 97.1708357334137     | 0.98|0.98 #1mistake w problematyczej klasie
-GRU-clean_glove.6B.100d_Bidirectional     |clean Bidirectional|      | |
-GRU-clean_glove.6B.300d_Bidirectional     |clean Bidirectional|           | |
+GRU-clean_glove.6B.100d_Bidirectional     |clean Bidirectional|  97.24338054656982    | 0.98 | 0.98
+GRU-clean_glove.6B.300d_Bidirectional     |clean Bidirectional|  98.47660660743713         |0.98 |0.98
+GRU-clean_glove.6B.300d_Bidirectional     |clean Bidirectional tokenizer na defuult chyba z 5 na 10 tys (bezsensownie jest ogrnaiczać ilolść słow mają mała :P słow  |  98.47660660743713         |0.98 |0.98
 
 
 #### CNN RandomizedSearchCV
