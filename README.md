@@ -45,12 +45,14 @@ CNN-clean-lemma  | clean-lemma  |  98.36779236793518 | 0.96|0.96
 
 ## Szukanie optymalnego Embedingu 
 
+dla ml  word2vwc doc2vec: https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568
+
 nazwa| komentarz |test Accuracy|predykcja Accuracy|predykcja F1_score
 -|-|-|-|-
-ML-LogistycRegresion_clean | clean | ? | ?|?   [comment]: <> (https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568)
-ML-LogistycRegresion_clean_word2vec | clean word2vec| ? | ?|?  [comment]: <> (link jw)
-ML-LogistycRegresion_clean_doc2vec | clean doc2vec| ? | ?|?     [comment]: <> (link jw)
-ML-SVM_clean | clean | ? | ?|?                                  [comment]: <>  (link jw)
+ML-LogistycRegresion_clean | clean | ? | ?|?   
+ML-LogistycRegresion_clean_word2vec | clean word2vec| ? | ?|?  
+ML-LogistycRegresion_clean_doc2vec | clean doc2vec| ? | ?|?     
+ML-SVM_clean | clean | ? | ?|?                                 
 RandomForestClassifier |clean TfidfVectorizer|0.98|0.98|0.98
 MultinomialNB   |clean  TfidfVectorizer|0.98|0.98|0.98
 MultinomialNB   |clean  TfidfVectorizer Chi-Square |||
