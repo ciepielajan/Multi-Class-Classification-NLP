@@ -10,6 +10,7 @@ implementacja jak największej ilości algorytmów i modeli do klasyfikacji w ce
 ## Szukanie optymalnej długości dla komendy (maxlen)
 [MLP_searching_optymal_maxlen](https://github.com/ciepielajan/Multi-Class-Classification-NLP/blob/main/MLP_searching%20_optymal_maxlen.ipynb)
 
+MLP_searching _optymal_maxlen text na predykcji ! do przerobienia
 
 |    |   maxlen |   Accuracy | model_name      |
 |---:|---------:|-----------:|:----------------|
