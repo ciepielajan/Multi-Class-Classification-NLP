@@ -40,6 +40,7 @@ placehoder - do zrobienia pod glvoe tweeter
 nazwa| komentarz |test Accuracy|predykcja Accuracy|predykcja F1_score
 -|-|-|-|-
 MLP-clean |clean|97.89626598358154|0.97|0.97
+MLP_clean_placeholder |clean | placeholder| 98.47660660743713 |0.98|0.98
 MLP-clean-lemma |clean lemma|98.04134964942932|0.97|0.97
 MLP-clean-lemma_glove.6B.100d |clean lemma glove.6B.100d |97.93253540992737|0.96|0.96
 MLP-clean-lemma-stop_words |clean lemma stop_words|96.69930934906006|0.94|0.94
